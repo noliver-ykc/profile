@@ -4,6 +4,7 @@ body {
     font-family: 'Signika Negative', sans-serif;
     color: #282626;
     line-height: 125%;
+    cursor: url(cursor.cur), auto;
   }
 
   h1 {
@@ -44,6 +45,7 @@ body {
   #my-danger-btn:hover {
     font-size: 1.1em;
     transition: font-size .3s;
+    cursor: url(cursor.cur), auto;
   }
 
   #prof-pic {

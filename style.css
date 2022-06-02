@@ -1,0 +1,130 @@
+body {
+    background-color: #f3f3ff;
+    background-image: url('images/grid.png') ;
+    font-family: 'Signika Negative', sans-serif;
+    color: #282626;
+    line-height: 125%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h1, h2 {
+    color: #8675b9;
+    font-weight: 700;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  .my-links a {
+    text-decoration: none;
+    color: #8675b9;
+    font-size: 2em;
+  }
+  .my-links a:hover{
+    color: #62528e;
+    font-size: 2.5em;
+    transition: font-size .3s;
+  }
+
+  #my-danger-btn {
+    background-color: #8675b9;
+    /* border-color: #8675b9; */
+    color: white;
+    font-size: 1em;
+    font-family: 'Signika Negative', sans-serif;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 1px;
+  }
+
+  #my-danger-btn:hover {
+    font-size: 1.1em;
+    transition: font-size .3s;
+  }
+
+  #prof-pic {
+    margin: 15px 0px 20px 0px;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #prof-pic:hover{
+    border: 5px solid #8675b9;
+    transition: border .1s;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .card {
+    margin: 20px 175px 30px;
+    padding: 75px 20px 20px 25px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 12px 12px 2px 1px #0000ff33;
+  }
+
+  .my-links p {
+    color: #323030;
+  }
+
+  @media (max-width: 960px) {
+    .card {
+      width: 50%;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .card {
+      width: 50%;
+      margin: 15px auto;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .container {
+      padding-top: 20%;
+    }
+    .card {
+      width: 70%;
+      margin: 15px auto;
+    }
+    #prof-pic:hover{
+      pointer-events: none;
+    }
+  }
+
+  @media (max-width: 280px) {
+    h1 {
+      font-size: 15px;
+    }
+
+    .card {
+      width: 50%;
+      margin: 15px auto;
+    }
+
+    #prof-pic {
+      height: 50px;
+      width: 50px;
+    }
+    #prof-pic:hover{
+      pointer-events: none;
+    }
+  }
